@@ -1,0 +1,86 @@
+vi
+vim/touch
+
+vi
+command mode : save copy undo
+insert mode : write/modify
+
+command mode : insert mode(i/o/a)
+insert =>command(press esc)
+
+'esc+:w'- save file that is created
+
+'esc+:wq'-exit from the file
+
+esc + yy(copy) + p(paste) - to copy a linne in file
+
+yy+2p - copy file 2 times
+
+esc+y+w - copy a word
+
+esc+q+!-to exit the file without saving it
+
+cat filename-use to read the file 
+
+echo "hey"
+
+date
+
+echo "hey" > filename 
+
+echo "hey" >> filename - to insert new data without overwriting it 
+
+rm -r * - to remove all files or folder
+
+tar -cf name of the file(bheem.tar) existing files(abc.txt data.txt)
+
+tar -tf bheem.tar -to see the content of the tar file
+
+tar -xf bheem.tar - to extract the file from the tar file
+
+ls -lh - gives the information of the files in 7 ways
+1. permission
+-rwx:read,write,exicute
+2. link
+3. owner/user
+-rwx
+4. group
+-rwx
+5. file size
+6. time
+7. filename/foldername
+
+yes "anything" -create/repaeat a file in a form of loop 
+
+yes "anything" > ram.txt 
+
+chmod u/u/o -/+ w/r/x filename(data.txt)[eg : chmod g+xw data.txt,chmod go-rx data.txt]
+
+if we need to go to any folder than we have to permission of exicute to owner 
+
+if we need to go to create any file in  folder than we have to permission of write to owner 
+
+assignment 3
+
+Q1.
+create a folder name as aman and inside aman 200 files : mkdir aman ,touch file(1..200).txt
+remove the starting 100 files : rm -r file{1..100}.txt
+remove files from 101 to 107 but with permission : rm -i file{102..107}.txt
+copy the remainn files from aman folder to aditya folder : cp /home/anshk4829/aman/file{108..200}.txt /home/anshk4829/aditya
+copy aman folder to aditya : cp -r  /home/anshk4829/aman /home/anshk4829/aditya
+
+Q2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+pwd - print network directory(current location)
+ls - list all files and folders
+mkdir - make directory
+rmdir remove directory(remove folder not file and the folder should be empty)
+cd - change directory
+touch - to create a file
+rm - remove file
+cd .. - change to parent directory
+rm -rv salman - use to remove folder with files in it [(-r=recursive(repeat)),(-v=verbose(describe))]
+cp source destination - copy a file to other
+mv source destination - move a file to other
+
+
+assignment 1
+create a folder regex
+-inside the regex
+-create 10 file
+-create any 6 folder
+-delete any 3 file
+-delete any 4 folder
+-now check the remaining file
+-remove the regex
+
+assignment-2
+
+create 2 folder aman and aditya
+in aman create 3 file
+copy 1 file from aman to aditya
+copy the 2 file to aditya with the new name "newfile.txt"
+move 3 file to aditya
+copy complete aman folder to aditya

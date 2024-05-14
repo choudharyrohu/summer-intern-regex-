@@ -1,0 +1,22 @@
+GIT :-
+
+working directory,staging area,git folder
+
+git add 
+git commit
+
+git init  - use so that we make any change in the folder and git can remember the changes
+
+git status - show the files in the git 
+
+git log
+
+ls -a (show hidden files)
+git commit -m "message/data" (use to dirct add data in the fil without opening the editor)
+
+git add . - to add all file
+
+assignment
+
+
+
